@@ -1,7 +1,7 @@
 #define MAX_PLAYER_NAME_LENGTH		32
 #define MAX_PLAYER_NUMBER			2
 
-extern char player[MAX_PLAYER_NAME_LENGTH][MAX_PLAYER_NAME_LENGTH];
+extern char player[MAX_PLAYER_NUMBER][MAX_PLAYER_NAME_LENGTH];
 
 // 최상위 아젠다를 결정하고 만들다 보니까
 // 실제로 초기 계획과는 다른 형태로 코드가 구성하게 됨
