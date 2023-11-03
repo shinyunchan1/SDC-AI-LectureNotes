@@ -13,11 +13,29 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="소스 파일\player">
+    <Filter Include="소스 파일\game">
+      <UniqueIdentifier>{319d696b-6102-459b-8c65-7fc5029a7249}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\utility">
+      <UniqueIdentifier>{665654ed-34ba-4bf2-8477-2eca3cd8f814}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\game">
+      <UniqueIdentifier>{79bcfef1-0802-46eb-bc97-118d0c718863}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\game\dice">
+      <UniqueIdentifier>{18bf5f73-c140-4be9-a380-57f41517d0e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\utility">
+      <UniqueIdentifier>{e9acb9ff-86ab-40c7-9eed-54084c97d3e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\game\player">
+      <UniqueIdentifier>{10e32f58-e803-47d0-99ec-5327ce04faa8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\game\player">
       <UniqueIdentifier>{ea7c7ccc-41c2-4030-884f-220bd1959bc1}</UniqueIdentifier>
     </Filter>
-    <Filter Include="헤더 파일\player">
-      <UniqueIdentifier>{10e32f58-e803-47d0-99ec-5327ce04faa8}</UniqueIdentifier>
+    <Filter Include="소스 파일\game\dice">
+      <UniqueIdentifier>{dad2f316-1d99-4d0a-b54c-d8826760d0ab}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -25,12 +43,24 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="player.c">
-      <Filter>소스 파일\player</Filter>
+      <Filter>소스 파일\game\player</Filter>
+    </ClCompile>
+    <ClCompile Include="random_generator.c">
+      <Filter>소스 파일\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="dice_game.c">
+      <Filter>소스 파일\game\dice</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="player.h">
-      <Filter>헤더 파일\player</Filter>
+      <Filter>헤더 파일\game\player</Filter>
+    </ClInclude>
+    <ClInclude Include="dice_game.h">
+      <Filter>헤더 파일\game\dice</Filter>
+    </ClInclude>
+    <ClInclude Include="random_generator.h">
+      <Filter>헤더 파일\utility</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
