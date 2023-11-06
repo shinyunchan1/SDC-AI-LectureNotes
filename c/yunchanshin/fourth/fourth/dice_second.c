@@ -1,5 +1,7 @@
-#include "dice_game.h"
+#include <dice_second.h>
+#include <stdio.h>
 #include "random_generator.h"
+#include "dice_game.h"
 
 int player_each_dice_number[MAX_PLAYER_NUMBER];
 int player_index_count;
@@ -11,10 +13,3 @@ void roll_dice(const int index)
 {
 	player_each_dice_number[player_index_count++] = generate_random(min, max);
 }
-
-void print_dice_number(const int index)
-{
-	printf("%d 번 플레이어의 주사위 눈금은 %d\n", index, player_each_dice_number[index]);
-}
-
-if 
